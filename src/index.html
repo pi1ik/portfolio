@@ -1,53 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Сайты на заказ | pi1ik</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="grid-container">
-        <div class="grid-elem">1</div>
-        <div class="grid-elem">2</div>
-        <div class="grid-elem">3</div>
-        <div class="grid-elem">4</div>
-        <div class="grid-elem">5</div>
-        <div class="grid-elem">6</div>
-        <div class="grid-elem">7</div>
-        <div class="grid-elem">8</div>
-        <div class="grid-elem">9</div>
-        <div class="grid-elem">10</div>
-        <!-- <div class="news-item">
-            <img src="img/cherries.jpg" alt="img" class="news-item__img">
-            <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+    <header>
+        <nav>
+            <div class="container">
+                <ul class="menu">
+
+                    <li class="menu_item">
+                        <a href="#" class="menu_link menu_link_about">
+                            <svg class="menu_link_icon" width="100" height="100" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 20C18.7614 20 21 17.7614 21 15C21 12.2386 18.7614 10 16 10C13.2386 10 11 12.2386 11 15C11 17.7614 13.2386 20 16 20Z" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.9751 24.925C8.72749 23.4431 9.87555 22.1984 11.292 21.3289C12.7085 20.4595 14.3381 19.9993 16.0001 19.9993C17.6621 19.9993 19.2917 20.4595 20.7082 21.3289C22.1246 22.1984 23.2727 23.4431 24.0251 24.925" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link menu_link_skills">
+                            <svg class="menu_link_icon" width="130" height="130" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.3375 21.9375L14.9375 28.45C14.8664 28.6413 14.7385 28.8064 14.5709 28.9229C14.4033 29.0395 14.2041 29.102 14 29.102C13.7958 29.102 13.5966 29.0395 13.429 28.9229C13.2614 28.8064 13.1335 28.6413 13.0625 28.45L10.6625 21.9375C10.6118 21.8 10.5319 21.6752 10.4283 21.5716C10.3248 21.468 10.1999 21.3881 10.0625 21.3375L3.54996 18.9375C3.35859 18.8664 3.19353 18.7385 3.07698 18.5709C2.96042 18.4033 2.89795 18.2041 2.89795 18C2.89795 17.7958 2.96042 17.5966 3.07698 17.429C3.19353 17.2614 3.35859 17.1335 3.54996 17.0625L10.0625 14.6625C10.1999 14.6118 10.3248 14.5319 10.4283 14.4283C10.5319 14.3248 10.6118 14.1999 10.6625 14.0625L13.0625 7.54996C13.1335 7.35859 13.2614 7.19353 13.429 7.07698C13.5966 6.96042 13.7958 6.89795 14 6.89795C14.2041 6.89795 14.4033 6.96042 14.5709 7.07698C14.7385 7.19353 14.8664 7.35859 14.9375 7.54996L17.3375 14.0625C17.3881 14.1999 17.468 14.3248 17.5716 14.4283C17.6752 14.5319 17.8 14.6118 17.9375 14.6625L24.45 17.0625C24.6413 17.1335 24.8064 17.2614 24.9229 17.429C25.0395 17.5966 25.102 17.7958 25.102 18C25.102 18.2041 25.0395 18.4033 24.9229 18.5709C24.8064 18.7385 24.6413 18.8664 24.45 18.9375L17.9375 21.3375C17.8 21.3881 17.6752 21.468 17.5716 21.5716C17.468 21.6752 17.3881 21.8 17.3375 21.9375V21.9375Z" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 2V8" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M25 5H19" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M28 9V13" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30 11H26" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link menu_link_portfolio">
+                            <svg class="menu_link_icon" width="130" height="130" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 24L26 24C27.1046 24 28 23.1046 28 22L28 8C28 6.89543 27.1046 6 26 6L6 6C4.89543 6 4 6.89543 4 8L4 22C4 23.1046 4.89543 24 6 24Z" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 28H12" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4 19H28" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 24V28" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link menu_link_price">
+                            <svg class="menu_link_icon" width="100" height="100" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 8V24C5 24.5304 5.21071 25.0391 5.58579 25.4142C5.96086 25.7893 6.46957 26 7 26H27C27.2652 26 27.5196 25.8946 27.7071 25.7071C27.8946 25.5196 28 25.2652 28 25V11C28 10.7348 27.8946 10.4804 27.7071 10.2929C27.5196 10.1054 27.2652 10 27 10H7C6.46957 10 5.96086 9.78929 5.58579 9.41421C5.21071 9.03914 5 8.53043 5 8ZM5 8C5 7.46957 5.21071 6.96086 5.58579 6.58579C5.96086 6.21071 6.46957 6 7 6H24" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22.5 19C23.0523 19 23.5 18.5523 23.5 18C23.5 17.4477 23.0523 17 22.5 17C21.9477 17 21.5 17.4477 21.5 18C21.5 18.5523 21.9477 19 22.5 19Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link menu_link_contacts">
+                            <svg class="menu_link_icon" width="100" height="100" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5.67497 22.125C4.18608 19.613 3.66528 16.6439 4.21035 13.7752C4.75543 10.9064 6.32888 8.33528 8.63532 6.54441C10.9418 4.75355 13.8226 3.86614 16.7369 4.04878C19.6513 4.23143 22.3988 5.47156 24.4636 7.53637C26.5284 9.60118 27.7685 12.3487 27.9512 15.263C28.1338 18.1774 27.2464 21.0582 25.4556 23.3647C23.6647 25.6711 21.0935 27.2446 18.2248 27.7896C15.356 28.3347 12.387 27.8139 9.87497 26.325V26.325L5.72497 27.5C5.55494 27.5497 5.37467 27.5528 5.20304 27.5089C5.03142 27.465 4.87476 27.3757 4.7495 27.2505C4.62423 27.1252 4.53497 26.9686 4.49107 26.7969C4.44717 26.6253 4.45024 26.445 4.49997 26.275L5.67497 22.125Z" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M16 17C16.5523 17 17 16.5523 17 16C17 15.4477 16.5523 15 16 15C15.4477 15 15 15.4477 15 16C15 16.5523 15.4477 17 16 17Z" fill="white"/>
+                            <path d="M10 17C10.5523 17 11 16.5523 11 16C11 15.4477 10.5523 15 10 15C9.44772 15 9 15.4477 9 16C9 16.5523 9.44772 17 10 17Z" fill="white"/>
+                            <path d="M22 17C22.5523 17 23 16.5523 23 16C23 15.4477 22.5523 15 22 15C21.4477 15 21 15.4477 21 16C21 16.5523 21.4477 17 22 17Z" fill="white"/>
+                                </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> -->
+        </nav>
+    </header>
+    <div class="promo">
+        <div class="container">
+            <h1 class="promo_header  ">
+                <div class="animate__animated animate__fadeInDown">Красивый и</div>
+                <div class="animate__animated animate__fadeInDown animate__delay-1s">удобный сайт для вас - </div>
+                <div class="animate__animated animate__fadeInDown animate__delay-2s "><span>моя работа</span> </div>
+            </h1>
         </div>
-        <div class="news-item">
-            <img src="img/kyrgyzstan.jpg" alt="img" class="news-item__img">
-            <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+    </div>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="about_img" src="img/about_me2.jpg" alt="me">
+                </div>
+                <div class="col-lg-7">
+                    <h1 class="about_title">Обо мне</h1>
+                    <div class="about_descr">Меня зовут Анна, я начинающий Web-разработчик 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto veniam aut fugiat voluptatibus, tempora rerum quaerat sunt ea, nobis ab asperiores, maiores nisi repudiandae iure voluptates magnam! Quo, ut vero.</div>
+                    <a class="about_btn" href="#">Связаться со мной</a>
+                </div>
+            </div>
         </div>
-        <div class="news-item">
-            <img src="img/cat.jpg" alt="img" class="news-item__img">
-            <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
+    </div>
+    <div class="skills">
+        <div class="container">
+            
+            <h2 class="title">Мои навыки</h2>
+            
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="" alt="css_animation" class="skills_img">
+                </div>
+                <div class="col-lg-8">
+                    <div class="skills_subtitle">
+                        CSS-анимация
+                    </div>
+                    <div class="skills_descr">
+                        Это когда... Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iste eligendi eos perferendis magnam, ullam aspernatur facilis hic aliquam ea placeat fuga. Ipsam, officiis quidem! Ad quasi qui aperiam. Asperiores?
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="skills_subtitle">
+                        JavaScript
+                    </div>
+                    <div class="skills_descr">
+                        Это когда... Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iste eligendi eos perferendis magnam, ullam aspernatur facilis hic aliquam ea placeat fuga. Ipsam, officiis quidem! Ad quasi qui aperiam. Asperiores?
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img src="" alt="js" class="skills_img">
+                </div>
+            </div>
         </div>
-        <div class="news-item">
-            <img src="img/fog.jpg" alt="img" class="news-item__img">
-            <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-        </div>
-        <div class="news-item">
-            <img src="img/switzerland.jpg" alt="img" class="news-item__img">
-            <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-        </div>
-        <div class="news-item">
-            <img src="img/mushroom.jpg" alt="img" class="news-item__img">
-            <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-        </div>
-        <div class="news-item">
-            <img src="img/arabian-horse.jpg" alt="img" class="news-item__img">
-            <div class="news-item__descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</div>
-        </div> -->
-1234567
     </div>
 </body>
 </html>
